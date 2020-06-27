@@ -16,7 +16,6 @@ const Carousel = () => {
   return (
     <div className='carousel_wrapper'
       style={{
-        border: '3px solid purple',
         overflow: 'hidden',
         height: `${window.innerHeight}px`
       }}

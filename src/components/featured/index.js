@@ -5,7 +5,7 @@ import Countdown from './Countdown';
 const Featured = () => {
   // this is the container, position is set to relative so we can set the position for the date and artist name
   return (
-    <div style={{position: 'relative', border: '3px solid blue'}}>
+    <div style={{position: 'relative'}}>
         <Carousel />
 
         <div className='artist_name'>

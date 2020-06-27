@@ -43,7 +43,7 @@ class Header extends React.Component {
           position='fixed'
           style={{
             padding: '10px 0',
-            backgroundColor: this.state.showHeader ? '#707070' : 'transparent',
+            backgroundColor: this.state.showHeader ? '#3c3c3c' : 'transparent',
             boxShadow: 'none'
           }}
         >
