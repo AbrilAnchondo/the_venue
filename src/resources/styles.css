@@ -118,7 +118,7 @@ footer .footer_copyright {
 }
 
 .countdown_wrapper .countdown_top {
-    background: #ff4800;
+    background: #707070;
     font-size: 19px;
     padding: 10px;
     display: inline-block;
@@ -127,13 +127,13 @@ footer .footer_copyright {
 
 .countdown_wrapper .countdown_bottom {
     display: flex;
-    background: #d93d00;
+    background: #636262;
     padding: 10px 20px;
 }
 
 .countdown_wrapper .countdown_time {
     font-size: 70px;
-    border-right: 1px solid #F44336;
+    border-right: 1px solid rgb(131, 130, 130);
     margin-right: 14px;
     padding-right: 49px;
 }
