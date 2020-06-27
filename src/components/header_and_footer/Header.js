@@ -43,7 +43,8 @@ class Header extends React.Component {
           position='fixed'
           style={{
             padding: '10px 0',
-            backgroundColor: this.state.showHeader ? 'grey' : 'transparent'
+            backgroundColor: this.state.showHeader ? 'grey' : 'transparent',
+            boxShadow: 'none'
           }}
         >
           <Toolbar>
