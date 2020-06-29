@@ -9,8 +9,11 @@ body {
     font-family: 'Righteous', cursive;
 }
 
+.black_bg {
+    background: black;
+}
 .bck_black {
-    background: #3c3c3c;
+     background: #3c3c3c;
 }
 .bck_white {
     background: #ffffff;
@@ -64,7 +67,7 @@ footer {
     text-align: center;
     font-size: 60px;
     color:#ffffff;
-    background: red;
+    background: black;
 }
 
 footer .footer_copyright {
@@ -355,7 +358,7 @@ footer .footer_copyright {
     width: 100%;
 }
 .location_tag div{
-    background: #2c2c2c;
+    background: #747272;
     color: #ffffff;
     text-transform: uppercase;
     width: 220px;
