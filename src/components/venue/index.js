@@ -6,7 +6,7 @@ import location_icon from '../../resources/images/icons/location.png';
 const Venue = () => {
   return (
     <div className='bck_black'>
-      <div className='center_wrapper'>
+      <div className='center_wrajpper'>
         <div className='vn_wrapper'>
           
           <Zoom duration={500}>

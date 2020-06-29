@@ -82,7 +82,7 @@ footer .footer_copyright {
 }
 
 .carousel_image {  
-    background-size: cover !important;
+    background-size: cover;
 }
 
 .artist_name {
@@ -153,6 +153,8 @@ footer .footer_copyright {
 
 .vn_wrapper {
     display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
     padding: 170px 0px;
 }
 
@@ -160,6 +162,7 @@ footer .footer_copyright {
     width:50%;
     color:#ffffff;
     text-align: center;
+    margin: 50px 0px;
 }
                       
 .vn_item .vn_outer {
@@ -177,7 +180,7 @@ footer .footer_copyright {
 }
 
 .vn_item .vn_inner:hover {
-    background: #3e3e3e;
+    background: rgb(165, 164, 165);
 }
 
 .vn_item .vn_icon_square {
@@ -217,7 +220,9 @@ footer .footer_copyright {
 /*====================
         HIGHLIGHTS
 ======================*/
-
+.highlight_wrapper {
+    padding: 10px 30px;
+}
 
 .highlight_wrapper h2 {
     text-align: center;
@@ -226,7 +231,8 @@ footer .footer_copyright {
     font-size: 52px;
 }
 
-.highlight_wrapper .highlight_description {
+/*took out I thin unecessary .highlight_wrapper from infront*/
+.highlight_description {
     line-height: 30px;
     font-size: 18px;
     font-weight: 300;
@@ -240,20 +246,20 @@ footer .footer_copyright {
     padding: 70px 0px;
 }
 
-.discount_wrapper .discount_porcentage {
-    padding-right: 100px;
+.discount_wrapper .discount_percentage {
+    padding-right: 70px;
 }
 
-.discount_wrapper .discount_porcentage span:nth-child(1) {
-    color: #ff4800;
+.discount_wrapper .discount_percentage span:nth-child(1) {
+    color: black;
     font-size: 125px;
     font-weight: 400;
     display: block;
     line-height: 120px;
 }
 
-.discount_wrapper .discount_porcentage span:nth-child(2) {
-    color: #2c2c2c;
+.discount_wrapper .discount_percentage span:nth-child(2) {
+    color: #3ec95c;
     font-size: 50px;
     font-weight: 400;
     display: block;
@@ -358,3 +364,5 @@ footer .footer_copyright {
     padding: 15px 20px;
     text-align: center;
 }
+
+/* TODO:: Write media queries for venue section / mobile */
